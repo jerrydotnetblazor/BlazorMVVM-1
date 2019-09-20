@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29230.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorMVVM", "BlazorMVVM\BlazorMVVM.csproj", "{CC3871ED-C535-4E0B-BB14-980878010B6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorMVVM", "BlazorMVVM\BlazorMVVM.csproj", "{CC3871ED-C535-4E0B-BB14-980878010B6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorMVVMCore.Server", "BlazorMVVMCore\Server\BlazorMVVMCore.Server.csproj", "{84B77AAB-7FBD-42B0-8568-03E58FCF6FD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorMVVMCore.Client", "BlazorMVVMCore\Client\BlazorMVVMCore.Client.csproj", "{17AA8FE2-BABD-4082-85FE-F7A0133EB46D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorMVVMCore.Shared", "BlazorMVVMCore\Shared\BlazorMVVMCore.Shared.csproj", "{6891821C-AEDA-4D2F-9403-6C0C9AB6D8CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AspNetCoreHosted", "AspNetCoreHosted", "{C4DB433B-068A-44C8-9949-0C010FF9EDDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +23,26 @@ Global
 		{CC3871ED-C535-4E0B-BB14-980878010B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC3871ED-C535-4E0B-BB14-980878010B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC3871ED-C535-4E0B-BB14-980878010B6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84B77AAB-7FBD-42B0-8568-03E58FCF6FD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84B77AAB-7FBD-42B0-8568-03E58FCF6FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84B77AAB-7FBD-42B0-8568-03E58FCF6FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84B77AAB-7FBD-42B0-8568-03E58FCF6FD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17AA8FE2-BABD-4082-85FE-F7A0133EB46D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17AA8FE2-BABD-4082-85FE-F7A0133EB46D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17AA8FE2-BABD-4082-85FE-F7A0133EB46D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17AA8FE2-BABD-4082-85FE-F7A0133EB46D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6891821C-AEDA-4D2F-9403-6C0C9AB6D8CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6891821C-AEDA-4D2F-9403-6C0C9AB6D8CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6891821C-AEDA-4D2F-9403-6C0C9AB6D8CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6891821C-AEDA-4D2F-9403-6C0C9AB6D8CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84B77AAB-7FBD-42B0-8568-03E58FCF6FD8} = {C4DB433B-068A-44C8-9949-0C010FF9EDDF}
+		{17AA8FE2-BABD-4082-85FE-F7A0133EB46D} = {C4DB433B-068A-44C8-9949-0C010FF9EDDF}
+		{6891821C-AEDA-4D2F-9403-6C0C9AB6D8CC} = {C4DB433B-068A-44C8-9949-0C010FF9EDDF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C08078EB-22BC-4297-B065-DC672334E468}
